@@ -19,4 +19,5 @@ class Boy(Male):
     
 boy1=Boy("ajay")
 boy1.work()
+print(Boy.mro())  #method resolution order like in which order the output comes if overridding is there
 
